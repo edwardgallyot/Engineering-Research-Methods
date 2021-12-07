@@ -1,0 +1,5 @@
+function [mean, standardDeviation] = meanAndStandardDeviation(N)
+% Returns an array with mean and standard deviation as the two elements
+% Accepts a matrix N
+Nsum = sum(N);
+mean = Nsum / length

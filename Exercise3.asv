@@ -1,0 +1,7 @@
+variance = 9;
+mean = 5;
+standardDeviation = sqrt(variance);
+pd = makedist('Normal', mean, standardDeviation);
+matrix = random(pd, [10,10]);
+
+y1 = x[:5; 0:5]
